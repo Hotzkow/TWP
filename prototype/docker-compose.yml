@@ -26,8 +26,8 @@ services:
     init: true
     volumes: # used as interface for in/output files to and from the prototype (syntax format [SOURCE:]TARGET[:MODE])
       - /dev/kvm:/dev/kvm
-      - ~/tosem20/volume:/mnt  # ./docker-mnt:/mnt
-    container_name: "testSubject${SIM_THRESHOLD}"
+      - ./docker-mnt:/mnt
+    container_name: "testSubject-0.2"
     # define arguments to be passed to run this container
     command:
       emulator \  # to use the host's device instead of creating an emulator use either winHost, macHost, or unixHost instead

@@ -50,10 +50,10 @@ Our prototype uses a language service which provides the cosine distance for any
 Due to it's long setup time, this service is encapsulated into it's own docker container. It only has to be started once and can be reused for multiple invocations of the prototype container.
 
 For ease of use we provide a docker-compose configuarion which can be invoked via `docker-compose up` (from within the directory where the file is located).
-The volume directory in this repository is only a demonstration on how to pass the configuration, scenarios and apks.
+The docker-mnt directory in this repository is only a demonstration on how to pass the configuration, scenarios and apks.
 
 To execute our prototype on a scenario:
 1. replace the demo-scenario.feature accordingly to the test scenario (if you rename it, don't forget to adapt the configuration respectively)
 2. put your test apk files into the apks directory
-3. optionally adapt the configuration to your preferences
+3. adapt the configuration to your preferences, i.e. set at least the first configuration parameter to one of `emulator`, `winHost`, `macHost`, `unixHost`
 4. start the container via `docker-compose up`
