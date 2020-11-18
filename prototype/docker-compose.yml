@@ -1,0 +1,36 @@
+version: '3.7'
+#  to start this service use `docker-compose -f <PATH_TO_DIR>docker-compose.yml up` (e.g. `~\projects\guido > docker-compose up`)
+services:
+  nl-service:
+    image: jh00/nlsservice
+    ports:
+      
+      - "127.0.0.1:1235:1234"
+    restart:
+      unless-stopped
+    # Run an init inside the container that forwards signals and reaps processes. Set this option to true to enable this feature for the service.
+    init: true  # only supported in newer docker-compose versions
+    # wait until the service is started completely (request port has to be the one from the nlsservice i.e. '1234' no matter which port is specified for the host)
+    healthcheck:
+      test: curl -X GET "127.0.0.1:1234/word2vec/wordsimilarity?word1=test&word2=test" || exit 1
+      interval: 30s
+      retries: 20
+      #start_period: 30s
+  guido:
+    environment: 
+      - NL_TEST_URL=http://nl-service:1234/word2vec/wordsimilarity?word1=test&word2=test
+    image: jh00/guido:1.0
+    restart:
+      on-failure
+    privileged: true  # for android emulators within docker containers
+    init: true
+    volumes: # used as interface for in/output files to and from the prototype (syntax format [SOURCE:]TARGET[:MODE])
+      - /dev/kvm:/dev/kvm
+      - ~/tosem20/volume:/mnt  # ./docker-mnt:/mnt
+    container_name: "testSubject${SIM_THRESHOLD}"
+    # define arguments to be passed to run this container
+    command:
+      emulator \  # to use the host's device instead of creating an emulator use either winHost, macHost, or unixHost instead
+      --Core-configPath=/mnt/config.properties \
+      --similarityThreshold=0.2 \
+      --Output-outputDir=/mnt/output
