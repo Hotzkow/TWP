@@ -1,0 +1,16 @@
+subject,mutations,targets,found,recall
+delete,1, 5, 5, 100.00
+delete,2, 5, 4, 80.00
+delete,3, 5, 2, 40.00
+delete,4, 5, 2, 40.00
+delete,5, 5, 2, 40.00
+swap,1, 5, 5, 100.00
+swap,2, 5, 5, 100.00
+swap,3, 5, 4, 80.00
+swap,4, 5, 2, 40.00
+swap,5, 5, 5, 100.00
+duplicate,1, 5, 5, 100.00
+duplicate,2, 5, 5, 100.00
+duplicate,3, 5, 5, 100.00
+duplicate,4, 5, 5, 100.00
+duplicate,5, 5, 2, 40.00

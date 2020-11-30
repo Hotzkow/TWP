@@ -1,0 +1,17 @@
+subject,mutations,targets,found,recall
+delete,1, 9, 6, 66.67
+delete,2, 9, 3, 33.33
+delete,3, 9, 6, 66.67
+delete,4, 9, 6, 66.67
+delete,5, 9, 6, 66.67
+delete,6, 9, 6, 66.67
+swap,1, 9, 8, 88.89
+swap,2, 9, 8, 88.89
+swap,3, 9, 9, 100.00
+swap,4, 9, 8, 88.89
+swap,5, 9, 8, 88.89
+duplicate,1, 9, 9, 100.00
+duplicate,2, 9, 8, 88.89
+duplicate,3, 9, 8, 88.89
+duplicate,4, 9, 8, 88.89
+duplicate,5, 9, 8, 88.89
