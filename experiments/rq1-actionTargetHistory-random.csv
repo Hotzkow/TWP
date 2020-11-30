@@ -1,0 +1,332 @@
+app,category,scenario,actions,targets
+a11,Browser,b11,0,0.0
+a11,Browser,b11,12,1.0
+a11,Browser,b11,2,0.8571428571428571
+a11,Browser,b12,0,0.0
+a11,Browser,b12,12,2.0
+a11,Browser,b12,2,1.7142857142857142
+a13,Browser,b11,0,0.0
+a13,Browser,b11,15,1.0
+a13,Browser,b11,7,0.5
+a13,Browser,b12,0,0.0
+a13,Browser,b12,15,3.0
+a13,Browser,b12,7,1.5
+a14,Browser,b11,0,0.0
+a14,Browser,b11,14,0.2857142857142857
+a14,Browser,b11,18,0.42857142857142855
+a14,Browser,b11,2,0.14285714285714285
+a14,Browser,b11,20,0.5714285714285714
+a14,Browser,b11,43,0.7142857142857143
+a14,Browser,b11,52,0.8571428571428571
+a14,Browser,b11,82,1.0
+a14,Browser,b12,0,0.0
+a14,Browser,b12,14,0.5714285714285714
+a14,Browser,b12,18,0.8571428571428571
+a14,Browser,b12,2,0.2857142857142857
+a14,Browser,b12,20,1.1428571428571428
+a14,Browser,b12,43,1.4285714285714286
+a14,Browser,b12,52,1.7142857142857142
+a14,Browser,b12,82,2.0
+a15,Browser,b11,0,0.0
+a15,Browser,b11,1,1.0
+a15,Browser,b11,2,2.0
+a15,Browser,b12,0,0.0
+a15,Browser,b12,1,1.0
+a15,Browser,b12,11,3.0
+a15,Browser,b12,12,4.0
+a15,Browser,b12,129,5.142857142857143
+a15,Browser,b12,2,2.0
+a15,Browser,b12,20,4.142857142857143
+a15,Browser,b12,29,4.428571428571429
+a15,Browser,b12,31,4.571428571428571
+a15,Browser,b12,41,4.857142857142857
+a15,Browser,b12,47,5.0
+a21,To Do List,b21,0,0.0
+a21,To Do List,b21,10,1.8
+a21,To Do List,b21,11,1.9
+a21,To Do List,b21,13,2.0
+a21,To Do List,b21,14,2.1
+a21,To Do List,b21,6,0.1
+a21,To Do List,b21,7,1.0
+a21,To Do List,b22,0,0.0
+a21,To Do List,b22,10,1.8
+a21,To Do List,b22,11,1.9
+a21,To Do List,b22,13,2.0
+a21,To Do List,b22,14,2.1
+a21,To Do List,b22,6,0.1
+a21,To Do List,b22,7,1.0
+a22,To Do List,b21,0,0.0
+a22,To Do List,b21,107,2.0
+a22,To Do List,b21,134,2.4
+a22,To Do List,b21,135,2.5
+a22,To Do List,b21,136,2.6
+a22,To Do List,b21,141,2.7
+a22,To Do List,b21,164,2.8
+a22,To Do List,b21,167,2.9
+a22,To Do List,b21,273,3.0
+a22,To Do List,b21,39,0.1
+a22,To Do List,b21,40,0.2
+a22,To Do List,b21,51,0.4
+a22,To Do List,b21,56,1.5
+a22,To Do List,b21,57,1.7
+a22,To Do List,b21,92,1.8
+a22,To Do List,b21,93,1.9
+a22,To Do List,b22,0,0.0
+a22,To Do List,b22,107,2.0
+a22,To Do List,b22,134,2.4
+a22,To Do List,b22,135,2.5
+a22,To Do List,b22,136,2.6
+a22,To Do List,b22,141,2.7
+a22,To Do List,b22,164,2.8
+a22,To Do List,b22,167,2.9
+a22,To Do List,b22,273,3.0
+a22,To Do List,b22,39,0.1
+a22,To Do List,b22,40,0.2
+a22,To Do List,b22,51,0.4
+a22,To Do List,b22,56,1.5
+a22,To Do List,b22,57,1.7
+a22,To Do List,b22,92,1.8
+a22,To Do List,b22,93,1.9
+a23,To Do List,b21,0,0.0
+a23,To Do List,b21,10,1.6
+a23,To Do List,b21,11,1.7
+a23,To Do List,b21,17,1.8
+a23,To Do List,b21,2,1.0
+a23,To Do List,b21,4,1.1
+a23,To Do List,b21,5,1.2
+a23,To Do List,b21,7,1.3
+a23,To Do List,b21,8,1.4
+a23,To Do List,b21,9,1.5
+a23,To Do List,b22,0,0.0
+a23,To Do List,b22,10,1.6
+a23,To Do List,b22,11,1.7
+a23,To Do List,b22,17,1.8
+a23,To Do List,b22,2,1.0
+a23,To Do List,b22,4,1.1
+a23,To Do List,b22,5,1.2
+a23,To Do List,b22,7,1.3
+a23,To Do List,b22,8,1.4
+a23,To Do List,b22,9,1.5
+a24,To Do List,b21,0,0.0
+a24,To Do List,b21,2,1.0
+a24,To Do List,b21,6,2.0
+a24,To Do List,b21,7,3.0
+a24,To Do List,b22,0,0.0
+a24,To Do List,b22,2,1.0
+a24,To Do List,b22,4,2.0
+a24,To Do List,b22,49,4.8
+a24,To Do List,b22,6,3.0
+a24,To Do List,b22,7,4.0
+a24,To Do List,b22,90,4.9
+a25,To Do List,b21,0,0.0
+a25,To Do List,b21,2,1.0
+a25,To Do List,b21,24,3.0
+a25,To Do List,b21,3,2.0
+a25,To Do List,b21,7,2.9
+a25,To Do List,b22,0,0.0
+a25,To Do List,b22,2,1.0
+a25,To Do List,b22,24,5.1
+a25,To Do List,b22,3,2.0
+a25,To Do List,b22,4,3.0
+a25,To Do List,b22,5,4.0
+a25,To Do List,b22,7,4.9
+a25,To Do List,b22,8,5.0
+a31,Shopping,b31,0,0.0
+a31,Shopping,b31,10,0.2
+a31,Shopping,b31,11,0.4
+a31,Shopping,b31,8,0.1
+a31,Shopping,b32,0,0.0
+a32,Shopping,b31,0,0.0
+a32,Shopping,b31,13,1.2
+a32,Shopping,b31,16,1.4
+a32,Shopping,b31,18,1.6
+a32,Shopping,b31,22,1.8
+a32,Shopping,b31,23,2.0
+a32,Shopping,b31,30,2.2
+a32,Shopping,b31,42,2.4
+a32,Shopping,b31,48,2.6
+a32,Shopping,b31,6,0.2
+a32,Shopping,b31,7,0.4
+a32,Shopping,b31,8,0.6
+a32,Shopping,b31,9,1.0
+a32,Shopping,b32,0,0.0
+a32,Shopping,b32,13,1.0
+a32,Shopping,b32,26,1.25
+a32,Shopping,b32,28,1.5
+a32,Shopping,b32,31,1.75
+a32,Shopping,b32,36,2.0
+a32,Shopping,b32,4,0.25
+a32,Shopping,b32,40,2.25
+a32,Shopping,b32,6,0.5
+a32,Shopping,b32,8,0.75
+a33,Shopping,b31,0,0.0
+a33,Shopping,b31,1,1.0
+a33,Shopping,b31,129,2.6
+a33,Shopping,b31,165,3.0
+a33,Shopping,b31,167,3.4
+a33,Shopping,b31,54,1.2
+a33,Shopping,b31,56,2.0
+a33,Shopping,b31,57,2.2
+a33,Shopping,b31,60,2.4
+a33,Shopping,b32,0,0.0
+a33,Shopping,b32,1,1.0
+a34,Shopping,b31,0,0.0
+a34,Shopping,b31,1,1.0
+a34,Shopping,b31,102,2.6
+a34,Shopping,b31,131,2.8
+a34,Shopping,b31,20,1.2
+a34,Shopping,b31,36,1.4
+a34,Shopping,b31,52,1.6
+a34,Shopping,b31,54,2.0
+a34,Shopping,b31,55,2.2
+a34,Shopping,b31,87,2.4
+a34,Shopping,b32,0,0.0
+a34,Shopping,b32,1,1.0
+a34,Shopping,b32,37,1.25
+a34,Shopping,b32,38,1.5
+a34,Shopping,b32,48,2.0
+a34,Shopping,b32,50,2.25
+a34,Shopping,b32,64,2.75
+a35,Shopping,b31,0,0.0
+a35,Shopping,b31,19,4.0
+a35,Shopping,b31,2,1.0
+a35,Shopping,b31,22,4.25
+a35,Shopping,b31,25,4.5
+a35,Shopping,b31,26,4.75
+a35,Shopping,b31,3,2.0
+a35,Shopping,b31,7,2.5
+a35,Shopping,b32,0,0.0
+a35,Shopping,b32,2,1.0
+a35,Shopping,b32,3,2.0
+a41,Mail Client,b41,0,0.0
+a41,Mail Client,b41,10,1.2222222222222223
+a41,Mail Client,b41,14,1.3333333333333333
+a41,Mail Client,b41,18,1.4444444444444444
+a41,Mail Client,b41,2,0.8888888888888888
+a41,Mail Client,b41,20,2.2222222222222223
+a41,Mail Client,b41,3,1.0
+a41,Mail Client,b41,6,1.1111111111111112
+a41,Mail Client,b42,0,0.0
+a41,Mail Client,b42,14,1.3333333333333333
+a41,Mail Client,b42,145,1.6666666666666667
+a41,Mail Client,b42,146,1.8333333333333333
+a41,Mail Client,b42,148,2.0
+a41,Mail Client,b42,16,1.5
+a41,Mail Client,b42,2,1.0
+a41,Mail Client,b42,6,1.1666666666666667
+a42,Mail Client,b41,0,0.0
+a42,Mail Client,b41,12,0.7777777777777778
+a42,Mail Client,b41,19,0.8888888888888888
+a42,Mail Client,b41,2,0.1111111111111111
+a42,Mail Client,b41,20,1.0
+a42,Mail Client,b41,6,0.5555555555555556
+a42,Mail Client,b41,8,0.6666666666666666
+a42,Mail Client,b42,0,0.0
+a42,Mail Client,b42,12,0.8333333333333334
+a42,Mail Client,b42,160,1.0
+a42,Mail Client,b42,6,0.6666666666666666
+a43,Mail Client,b41,0,0.0
+a43,Mail Client,b41,1,0.125
+a43,Mail Client,b41,105,0.875
+a43,Mail Client,b41,107,1.0
+a43,Mail Client,b41,30,0.375
+a43,Mail Client,b41,35,0.5
+a43,Mail Client,b41,46,0.625
+a43,Mail Client,b41,5,0.25
+a43,Mail Client,b41,73,0.75
+a43,Mail Client,b42,0,0.0
+a43,Mail Client,b42,19,0.8333333333333334
+a44,Mail Client,b41,0,0.0
+a44,Mail Client,b41,1,0.3076923076923077
+a44,Mail Client,b41,10,2.230769230769231
+a44,Mail Client,b41,25,2.3076923076923075
+a44,Mail Client,b41,3,1.0
+a44,Mail Client,b41,4,2.0
+a44,Mail Client,b41,6,2.076923076923077
+a44,Mail Client,b41,8,2.1538461538461537
+a44,Mail Client,b42,0,0.0
+a44,Mail Client,b42,1,1.0
+a44,Mail Client,b42,10,2.0
+a44,Mail Client,b42,3,1.1
+a44,Mail Client,b42,39,2.8
+a44,Mail Client,b42,40,3.6
+a44,Mail Client,b42,5,1.2
+a45,Mail Client,b41,0,0.0
+a45,Mail Client,b41,1,0.07692307692307693
+a45,Mail Client,b41,11,0.23076923076923078
+a45,Mail Client,b41,12,0.3076923076923077
+a45,Mail Client,b41,13,0.38461538461538464
+a45,Mail Client,b41,15,0.46153846153846156
+a45,Mail Client,b41,18,0.5384615384615384
+a45,Mail Client,b41,3,0.15384615384615385
+a45,Mail Client,b41,31,0.6153846153846154
+a45,Mail Client,b41,40,0.9230769230769231
+a45,Mail Client,b41,41,1.2307692307692308
+a45,Mail Client,b41,44,1.3076923076923077
+a45,Mail Client,b42,0,0.0
+a52,Tip Calculator,b51,0,0.0
+a52,Tip Calculator,b51,1,0.6666666666666666
+a52,Tip Calculator,b51,2,1.3333333333333333
+a52,Tip Calculator,b51,5,2.0
+a52,Tip Calculator,b52,0,0.0
+a52,Tip Calculator,b52,1,0.8333333333333334
+a52,Tip Calculator,b52,2,1.6666666666666667
+a52,Tip Calculator,b52,5,2.5
+a52,Tip Calculator,b52,7,3.3333333333333335
+a53,Tip Calculator,b51,0,0.0
+a53,Tip Calculator,b51,1,1.0
+a53,Tip Calculator,b51,2,2.0
+a53,Tip Calculator,b51,24,4.0
+a53,Tip Calculator,b51,3,3.0
+a53,Tip Calculator,b52,0,0.0
+a53,Tip Calculator,b52,1,1.0
+a53,Tip Calculator,b52,2,2.0
+a53,Tip Calculator,b52,24,4.5
+a53,Tip Calculator,b52,3,3.0
+a53,Tip Calculator,b52,30,4.666666666666667
+a53,Tip Calculator,b52,35,4.833333333333333
+a53,Tip Calculator,b52,6,4.0
+a54,Tip Calculator,b51,0,0.0
+a54,Tip Calculator,b51,28,1.3333333333333333
+a54,Tip Calculator,b51,4,0.3333333333333333
+a54,Tip Calculator,b51,41,1.6666666666666667
+a54,Tip Calculator,b51,42,2.0
+a54,Tip Calculator,b51,44,2.3333333333333335
+a54,Tip Calculator,b51,62,2.6666666666666665
+a54,Tip Calculator,b51,82,3.0
+a54,Tip Calculator,b51,9,1.0
+a54,Tip Calculator,b52,0,0.0
+a54,Tip Calculator,b52,1,0.8
+a54,Tip Calculator,b52,10,2.6
+a54,Tip Calculator,b52,2,1.0
+a54,Tip Calculator,b52,24,2.8
+a54,Tip Calculator,b52,29,3.0
+a54,Tip Calculator,b52,3,1.6
+a54,Tip Calculator,b52,43,3.2
+a54,Tip Calculator,b52,49,3.4
+a54,Tip Calculator,b52,51,3.6
+a54,Tip Calculator,b52,55,3.8
+a54,Tip Calculator,b52,7,1.8
+a54,Tip Calculator,b52,72,4.0
+a54,Tip Calculator,b52,8,2.4
+a55,Tip Calculator,b51,0,0.0
+a55,Tip Calculator,b51,1,0.6666666666666666
+a55,Tip Calculator,b51,12,2.6666666666666665
+a55,Tip Calculator,b51,13,3.0
+a55,Tip Calculator,b51,6,1.0
+a55,Tip Calculator,b51,7,1.3333333333333333
+a55,Tip Calculator,b51,8,1.6666666666666667
+a55,Tip Calculator,b51,9,2.3333333333333335
+a55,Tip Calculator,b52,0,0.0
+a55,Tip Calculator,b52,104,4.0
+a55,Tip Calculator,b52,13,1.8
+a55,Tip Calculator,b52,17,2.0
+a55,Tip Calculator,b52,18,2.6
+a55,Tip Calculator,b52,19,2.8
+a55,Tip Calculator,b52,23,3.0
+a55,Tip Calculator,b52,24,3.2
+a55,Tip Calculator,b52,29,3.4
+a55,Tip Calculator,b52,56,3.6
+a55,Tip Calculator,b52,6,0.8
+a55,Tip Calculator,b52,64,3.8
+a55,Tip Calculator,b52,9,1.6

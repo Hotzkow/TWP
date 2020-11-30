@@ -1,0 +1,47 @@
+app,category,scenario,targets
+a15,Browser,b11,2
+a11,Browser,b11,1
+a14,Browser,b11,1
+a13,Browser,b11,1
+a15,Browser,b12,8
+a11,Browser,b12,2
+a14,Browser,b12,2
+a13,Browser,b12,3
+a24,To Do List,b21,3
+a23,To Do List,b21,4
+a21,To Do List,b21,3
+a25,To Do List,b21,3
+a22,To Do List,b21,3
+a24,To Do List,b22,6
+a23,To Do List,b22,6
+a21,To Do List,b22,4
+a25,To Do List,b22,6
+a22,To Do List,b22,5
+a32,Shopping,b31,6
+a33,Shopping,b31,8
+a31,Shopping,b31,7
+a34,Shopping,b31,8
+a35,Shopping,b31,15
+a32,Shopping,b32,3
+a33,Shopping,b32,5
+a31,Shopping,b32,4
+a34,Shopping,b32,5
+a35,Shopping,b32,6
+a44,Mail Client,b41,5
+a45,Mail Client,b41,4
+a43,Mail Client,b41,3
+a41,Mail Client,b41,9
+a42,Mail Client,b41,3
+a44,Mail Client,b42,7
+a45,Mail Client,b42,5
+a43,Mail Client,b42,3
+a41,Mail Client,b42,11
+a42,Mail Client,b42,3
+a54,Tip Calculator,b51,3
+a55,Tip Calculator,b51,3
+a52,Tip Calculator,b51,3
+a53,Tip Calculator,b51,4
+a54,Tip Calculator,b52,4
+a55,Tip Calculator,b52,4
+a52,Tip Calculator,b52,4
+a53,Tip Calculator,b52,5
