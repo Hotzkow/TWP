@@ -1,0 +1,48 @@
+version: '3.7'
+#  to start this service use `docker-compose -f <PATH_TO_DIR>linux-docker-compose.yml up`
+
+# REQUIREMENTS: 
+  # * the host pc has adb version 1.0.41 installed and started (adb start-server)
+  # * the environment variable ${DEVICE_SERIAL} is set to the serial number of the device to be used for testing (execute `adb devices` to lookup the serial number)
+
+services:
+  nl-service:
+    image: jh00/nlsservice
+    ports:
+      - "127.0.0.1:1234:1234"
+    restart:
+      unless-stopped
+    # Run an init inside the container that forwards signals and reaps processes. Set this option to true to enable this feature for the service.
+    init: true  # only supported in newer docker-compose versions
+    # wait until the service is started completely (request port has to be the one from the nlsservice i.e. '1234' no matter which port is specified for the host)
+    healthcheck:
+      test: curl -X GET "127.0.0.1:1234/word2vec/wordsimilarity?word1=test&word2=test" || exit 1
+      interval: 30s
+      retries: 20
+      #start_period: 30s
+  guido:
+    network_mode: "host"  # "host" mode required to access adb devices on the host, if no emulator is used within the container
+    environment: 
+      # nl-service published port 1234 to host and this container is started in network host mode,
+      # thus, we can access localhost:1234 directly
+      - NL_TEST_URL=http://localhost:1234/word2vec/wordsimilarity?word1=test&word2=test
+    image: 
+      jh00/guido:1.0
+    restart:
+      on-failure
+    privileged: true  # for android emulators within docker containers
+    init: true
+    volumes: # used as interface for in/output files to and from the prototype (syntax format [SOURCE:]TARGET[:MODE])
+      - /dev/kvm:/dev/kvm
+      - ./docker-mnt:/mnt
+    container_name: "Guido-0.2"
+    # define arguments to be passed to run this container
+    command:
+      # if only one device is connected to the host pc, the argument Exploration-deviceSerialNumber can be removed
+      unixHost \
+      --LanguageService-remoteIp=http://localhost:1234
+      --Exploration-deviceSerialNumber=$DEVICE_SERIAL \
+      --Core-configPath=/mnt/config.properties \
+      --similarityThreshold=0.2 \
+      --Output-outputDir=/mnt/output
+
