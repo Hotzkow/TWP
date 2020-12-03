@@ -76,9 +76,9 @@ To execute our prototype on a scenario:
 For ease of use we provide a docker-compose configuarion which can be used. Please ensure all [requirements](#Requirements) are fullfilled before starting the prototype via  
 ```bash
 export DEVICE_SERIAL=<device id as reporteb by adb devices>
-docker-compose up
+docker-compose -f <PATH_TO_DOCKER-COMPOSE_FILE> up
 ```
-If the language service is already running, you can (re-)start the prototype via `docker-compose up guido`
+If the language service is already running, you can (re-)start the prototype via `docker-compose -f <PATH_TO_DOCKER-COMPOSE_FILE> up guido`
 
 ## Specifying Way-Points
 
