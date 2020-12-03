@@ -91,7 +91,7 @@ Example 1:
 Feature: Account Management
 
 	Scenario: Valid Email Credentials
-		When type '@email' Into Email/username
+		When type 'your@test.mail' Into Email/username
 		And enter "sample42P!" Into password
 
 	...
@@ -119,7 +119,7 @@ Feature: manage tasks
 		And confirm
 		Then 'test task' is not present
 ```
-
+A gherkin file
 * has to start with the keyword `Feature:` followed by some text (e.g. the feature to be tested)
 * one or more `Scenario:` entries have to be defined (e.g. for each usage scenario)
 * The first step in the scenario has to start with `when`, further steps can be defined as list (by * prefix) or be concatenated with `and`
